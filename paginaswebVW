@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu hoja de estilos CSS -->
+</head>
+<body>
+    <header>
+        <h1>Nombre del Desarrollador Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <!-- Contenido del inicio -->
+        </section>
+
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <!-- Contenido sobre el desarrollador -->
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <!-- Lista de proyectos con descripciones, enlaces, etc. -->
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <!-- Formulario de contacto o información de contacto -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos de Autor &copy; 2023 | Nombre del Desarrollador Web</p>
+    </footer>
+</body>
+</html>
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Caprasimo', sans-serif;
+    background-color: #F8E5ED;
+    color: #333333;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #FF7E9D;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #FF7E9D;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Estilos de la sección de inicio */
+#inicio {
+    background-color: #FFF2F5;
+    padding: 40px;
+}
+
+/* Estilos de la sección de sobre mí */
+#sobre-mi {
+    background-color: #FFE1E8;
+    padding: 40px;
+}
+
+/* Estilos de la sección de proyectos */
+#proyectos {
+    background-color: #FFD1DB;
+    padding: 40px;
+}
+
+/* Estilos de la sección de contacto */
+#contacto {
+    background-color: #FFC0CC;
+    padding: 40px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
